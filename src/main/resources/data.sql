@@ -1,0 +1,21 @@
+INSERT INTO author (name, nationality) VALUES ('F. Scott Fitzgerald', 'American');
+INSERT INTO author (name, nationality) VALUES ('George Orwell', 'British');
+INSERT INTO author (name, nationality) VALUES ('Jane Austen', 'British');
+INSERT INTO author (name, nationality) VALUES ('Harper Lee', 'American');
+INSERT INTO author (name, nationality) VALUES ('J.D. Salinger', 'American');
+INSERT INTO author (name, nationality) VALUES ('J.R.R. Tolkien', 'British');
+INSERT INTO author (name, nationality) VALUES ('Agatha Christie', 'British');
+INSERT INTO author (name, nationality) VALUES ('Stephen King', 'American');
+INSERT INTO author (name, nationality) VALUES ('Isaac Asimov', 'American');
+INSERT INTO author (name, nationality) VALUES ('Arthur Conan Doyle', 'British');
+
+INSERT INTO book (title, isbn, genre, author_id) VALUES ('The Great Gatsby', '9780743273565', 'Fiction', 1);
+INSERT INTO book (title, isbn, genre, author_id) VALUES ('1984', '9780451524935', 'Science Fiction', 2);
+INSERT INTO book (title, isbn, genre, author_id) VALUES ('Pride and Prejudice', '9780141439518', 'Romance', 3);
+INSERT INTO book (title, isbn, genre, author_id) VALUES ('To Kill a Mockingbird', '9780060935467', 'Fiction', 4);
+INSERT INTO book (title, isbn, genre, author_id) VALUES ('The Catcher in the Rye', '9780316769174', 'Fiction', 5);
+INSERT INTO book (title, isbn, genre, author_id) VALUES ('The Hobbit', '9780547928227', 'Fantasy', 6);
+INSERT INTO book (title, isbn, genre, author_id) VALUES ('And Then There Were None', '9780062073488', 'Mystery', 7);
+INSERT INTO book (title, isbn, genre, author_id) VALUES ('The Shining', '9780307743657', 'Horror', 8);
+INSERT INTO book (title, isbn, genre, author_id) VALUES ('Foundation', '9780553293357', 'Science Fiction', 9);
+INSERT INTO book (title, isbn, genre, author_id) VALUES ('The Adventures of Sherlock Holmes', '9780140437691', 'Mystery', 10);
